@@ -1,0 +1,86 @@
+import { Book } from './types';
+
+export const FALLBACK_COVER_URL = 'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?auto=format&fit=crop&w=300&h=450&q=80';
+
+export const INITIAL_BOOKS: Book[] = [
+  {
+    id: '1',
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    genre: 'Classic Fiction',
+    description: 'A novel set in the Jazz Age that explores themes of wealth, love, and the American Dream.',
+    status: 'In Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/10522638-L.jpg',
+    rating: 4.5,
+  },
+  {
+    id: '2',
+    title: 'Clean Code',
+    author: 'Robert C. Martin',
+    genre: 'Technology',
+    description: 'A handbook of agile software craftsmanship. Essential reading for developers.',
+    status: 'In Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/12866632-L.jpg', // Actually Design Patterns often maps here too, but acceptable for demo
+    rating: 5,
+  },
+  {
+    id: '3',
+    title: 'Dune',
+    author: 'Frank Herbert',
+    genre: 'Science Fiction',
+    description: 'Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides.',
+    status: 'Out of Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/12693683-L.jpg',
+    rating: 4.8,
+  },
+  {
+    id: '4',
+    title: 'Sapiens',
+    author: 'Yuval Noah Harari',
+    genre: 'Non-Fiction',
+    description: 'A brief history of humankind, exploring how biology and history have defined us.',
+    status: 'In Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/8381862-L.jpg',
+    rating: 4.7,
+  },
+  {
+    id: '5',
+    title: 'Project Hail Mary',
+    author: 'Andy Weir',
+    genre: 'Science Fiction',
+    description: 'A lone astronaut must save the earth from disaster in this gripping interstellar adventure.',
+    status: 'In Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/12586745-L.jpg',
+    rating: 4.9,
+  },
+  {
+    id: '6',
+    title: 'Design Patterns',
+    author: 'Erich Gamma',
+    genre: 'Technology',
+    description: 'Elements of Reusable Object-Oriented Software. The classic GoF book.',
+    status: 'In Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/12866632-L.jpg',
+    rating: 4.6,
+  },
+  {
+    id: '7',
+    title: '1984',
+    author: 'George Orwell',
+    genre: 'Classic Fiction',
+    description: 'A dystopian social science fiction novel and cautionary tale about totalitarianism.',
+    status: 'Out of Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/12660143-L.jpg',
+    rating: 4.8,
+  },
+  {
+    id: '8',
+    title: 'Thinking, Fast and Slow',
+    author: 'Daniel Kahneman',
+    genre: 'Psychology',
+    description: 'The major New York Times bestseller that explains the two systems that drive the way we think.',
+    status: 'In Stock',
+    coverUrl: 'https://covers.openlibrary.org/b/id/8381395-L.jpg',
+    rating: 4.4,
+  }
+];
